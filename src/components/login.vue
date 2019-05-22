@@ -93,7 +93,7 @@ export default {
         this.passInvalid=true;
       }else {
         if(this.userid ==='admin' && this.pass=== 'admin'){
-          this.$router.push('/home')
+          this.$router.push('/dashboard')
         }else{
           this.invalid = true;
         }

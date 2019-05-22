@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/my-mechano/'
-    : '/'
-};
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/mechano/'
+      : '/'
+  }
